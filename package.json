@@ -2,5 +2,12 @@
   "name": "rudy-contribution-art",
   "private": true,
   "type": "module",
-  "scripts": { "preview": "bun index.js preview", "test": "bun test" }
+  "scripts": {
+    "preview": "bun index.js preview",
+    "status": "bun index.js status",
+    "generate": "bun index.js generate",
+    "verify": "bun index.js verify",
+    "publish": "bun index.js publish",
+    "test": "bun test"
+  }
 }
