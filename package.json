@@ -1,5 +1,6 @@
 {
-  "dependencies": {
-    "dayjs": "^1.11.13"
-  }
+  "name": "rudy-contribution-art",
+  "private": true,
+  "type": "module",
+  "scripts": { "preview": "bun index.js preview", "test": "bun test" }
 }
